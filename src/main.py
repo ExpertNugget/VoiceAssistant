@@ -2,6 +2,7 @@
 # Future goals would include task specific requests acting as different "personalities" to change speed, voice, and style of reply according to the task, as well as visual inputs/outputs for varied tasks.
 import speech_recognition as sr
 
+
 r = sr.Recognizer()
 
 with sr.Microphone() as source:
