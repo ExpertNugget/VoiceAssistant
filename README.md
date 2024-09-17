@@ -1,5 +1,16 @@
 # SETUP
 1. Run `python -m venv .` in the root directory NOT IN `/src` FOLDER. 
+You should have the following folder structure after running the above, if not re-clone the repo.
+. <- root directory, name is preferably `VoiceAssistant/` but can be anything.
+├── Include
+├── Lib
+├── Scripts
+├── src/
+│   └── main.py
+├── .gitignore
+├── pyvenv.cfg
+├── README.md
+└── requirements.txt
 2. Run `. Scripts/activate` in the root directory. (if this fails re-clone repo and try again)
 3. Run `pip install -r requirements.txt` (technically the only thing that needs to be ran but you should use the venv stuff above to avoid conflicts.)
 ## Adding libraries
