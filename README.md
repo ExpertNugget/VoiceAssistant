@@ -15,6 +15,8 @@ You should have the following folder structure after running the above, if not r
 3. Run `pip install -r requirements.txt` (technically the only thing that needs to be ran but you should use the venv stuff above to avoid conflicts.)
 ## Adding libraries
 ALWAYS run `pip freeze > requirements.txt` if you ever use `pip install`.
+# Starting the script
+Run `python src/main.py` (make sure venv is activated with `. Scripts/activate`)
 # Goal
 Make an AI voice assistant with multi input/output relative to the input location.
 # Future Goals 
