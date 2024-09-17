@@ -1,6 +1,6 @@
 # SETUP
 1. Run `python -m venv .` in the root directory NOT IN `/src` FOLDER. 
-You should have the following folder structure after running the above, if not re-clone the repo.
+You should have the following folder structure after running the above, if not re-clone the repo.  
 . <- root directory, name is preferably `VoiceAssistant/` but can be anything.  
 ├── Include  
 ├── Lib  
