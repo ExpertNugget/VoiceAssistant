@@ -2,7 +2,8 @@
 1. Run `python -m venv .` in the root directory NOT IN `/src` FOLDER. 
 2. Run `. Scripts/activate` in the root directory. (if this fails re-clone repo and try again)
 3. Run `pip install -r requirements.txt`
-
+## Adding libraries
+ALWAYS run `pip freeze > requirements.txt` if you ever use `pip install`.
 # Goal
 Make an AI voice assistant with multi input/output relative to the input location.
 # Future Goals 
